@@ -1,5 +1,5 @@
 const array1 = ['z', 'x', 'y', 'd'];
-const array2 = ['s', 't', 's'];
+const array2 = ['x', 't', 's'];
 
 function containsCommonItems(arr1, arr2) {
     let map = {};
