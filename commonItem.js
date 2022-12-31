@@ -1,5 +1,9 @@
 const array1 = ['z', 'x', 'y', 'd'];
 const array2 = ['x', 't', 's'];
+/**
+ * 
+ * @param {Array} arr1 
+ */
 
 function containsCommonItems(arr1, arr2) {
     let map = {};
@@ -19,4 +23,8 @@ function containsCommonItems(arr1, arr2) {
 
 }
 
-console.log(containsCommonItems(array1, array2));
+//console.log(containsCommonItems(array1, array2));
+
+function containsCommonItems(arr1, arr2) {
+  return arr1
+}
