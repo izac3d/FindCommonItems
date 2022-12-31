@@ -1,5 +1,5 @@
 const array1 = ['z', 'x', 'y', 'd'];
-const array2 = ['x', 't', 's'];
+const array2 = ['w', 't', 's'];
 /**
  * 
  * @param {Array} arr1 
@@ -25,6 +25,8 @@ function containsCommonItems(arr1, arr2) {
 
 //console.log(containsCommonItems(array1, array2));
 
-function containsCommonItems(arr1, arr2) {
-  return arr1
+function containsCommonItems2(arr1, arr2) {
+  return arr1.some(item => arr2.includes(item));
 }
+
+console.log(containsCommonItems2(array1, array2));
