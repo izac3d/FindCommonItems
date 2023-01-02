@@ -1,5 +1,5 @@
 const array1 = ['z', 'x', 'y', 'd'];
-const array2 = ['w', 't', 's'];
+const array2 = ['w', 'd', 'o'];
 /**
  * 
  * @param {Array} arr1 
